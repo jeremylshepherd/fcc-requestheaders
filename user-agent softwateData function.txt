@@ -1,0 +1,22 @@
+function softwareData(str){
+    var data = str.split(' ');
+    var arr = [];
+    
+    for(var i = 0; i < data.length; i++){
+        if(data[i][0] === '(' && arr.length < 2){
+            arr.push(i);
+        }else if(data[i][data[i].length - 1] === ')' && arr.length < 2){
+            arr.push(i + 1);
+        }    
+    }
+    
+    var jData = data.slice(arr[0], arr[1]).join(' ');
+    jData = jData.split('');
+    jData.pop();
+    jData.shift();
+    jData = jData.join('');
+
+    return jData;
+}
+
+git@github.com:jeremylshepherd/fcc-requestheaders.git
