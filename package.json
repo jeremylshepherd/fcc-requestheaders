@@ -1,7 +1,7 @@
 {
-  "name": "timestamp",
+  "name": "requestheader",
   "version": "1.0.0",
-  "description": "Free Code Camp Timestamp MicroService",
+  "description": "Free Code Camp Request Header  MicroService",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,9 @@
     "cookie-parser": "^1.4.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "mongoose": "^4.3.7",
     "path": "^0.12.7",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "valid-url": "^1.0.9"
   }
 }
