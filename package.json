@@ -14,9 +14,7 @@
     "cookie-parser": "^1.4.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
-    "mongoose": "^4.3.7",
     "path": "^0.12.7",
-    "serve-favicon": "^2.3.0",
-    "valid-url": "^1.0.9"
+    "serve-favicon": "^2.3.0"
   }
 }
